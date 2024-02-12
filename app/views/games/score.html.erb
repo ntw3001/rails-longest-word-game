@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>You won!</h1>
+
+  <% if @found %>
+  <h2>You won at it being an English word!</h2>
+  <% else %>
+  <h2>You won at it not being an English word!</h2>
+  <% end %>
+
+
+  <%= link_to "Have another go", new_path %>
+</div>
